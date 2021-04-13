@@ -1210,3 +1210,7 @@ input:checked + .slider:after {
 #killFeed {
 	background-color: transparent!important;
 }
+/* Server ping fix */
+.serverPing {
+    font-size: unset !important;    
+}
