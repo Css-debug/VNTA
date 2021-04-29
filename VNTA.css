@@ -458,6 +458,10 @@ input:checked + .slider:after {
 }
 #subLogoButtons>.button:hover {
 	color: var(--accent);
+	transform: scale(1)!important;
+}
+#faceItIconM {
+     display: none
 }
 
 /* Chat */
