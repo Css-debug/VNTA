@@ -1204,9 +1204,12 @@ input:checked + .slider:after {
 /* Loading BG */
 
 #loadingBg {
-  background-image: url(https://media.discordapp.net/attachments/813444187566506027/821769936744611840/ezgif.com-gif-maker.gif);
-  background-size: 1300px 700px;
-  background-repeat:no-repeat; 
+        background-image: url(https://cdn.discordapp.com/icons/719946380285837322/a_da23c831a205ba907449ff1f972291b4.gif?size=1024);
+        width: 500px;
+        height: 500px;
+        left: 420px;
+	top: 100px;
+	
 }
 
 /* White spectating */
@@ -1217,4 +1220,18 @@ input:checked + .slider:after {
 /* Server ping fix */
 .serverPing {
     font-size: unset !important;    
+}
+
+/* New Updates */
+
+#chatInputHolder {
+	background-color: transparent;
+	border: none!important;
+}
+#chatSwitch.material-icons {
+	display: none!important;
+}
+#chatList {
+	background-color: transparent;
+	border: none!important;
 }
